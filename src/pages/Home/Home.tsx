@@ -4,9 +4,7 @@ import { OneRepMax } from "../../component";
 export function Home() {
   return (
     <div className="flex flex-col">
-      <div>
-        <OneRepMax />
-      </div>
+      <OneRepMax />
     </div>
   );
 }
